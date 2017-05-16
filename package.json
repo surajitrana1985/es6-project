@@ -1,0 +1,32 @@
+{
+  "name": "es6-project",
+  "version": "1.0.0",
+  "description": "This project is based on ECMA6 transpilation to ECMA 5 using Babel",
+  "main": "index.js",
+  "dependencies": {
+    "npm": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "start": "http-server",
+    "webpack": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajitrana1985/es6-project.git"
+  },
+  "keywords": [
+    "ECMAScript6",
+    "Project",
+    "with",
+    "Babel",
+    "transpiler"
+  ],
+  "author": "Surajit.Rana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/surajitrana1985/es6-project/issues"
+  },
+  "homepage": "https://github.com/surajitrana1985/es6-project#readme"
+}
